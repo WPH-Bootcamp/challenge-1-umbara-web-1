@@ -98,10 +98,15 @@ nav ul.link li a:hover {
   background-color: #5325eb;
 }
 
+/* ==== MAIN LAYOUT ==== */
+main {
+  padding-top: 84px; /* Offset for fixed header */
+}
+
 /* ==== HERO SECTION ==== */
 .hero-section {
   height: 750px;
-  background: linear-gradient(180deg, #000000 0%, #210a5e4d 30%);
+  background: linear-gradient(180deg, #000000 0%, #210a5e4d 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -170,4 +175,29 @@ nav ul.link li a:hover {
 .hero-image img {
   max-width: none;
   display: block;
+}
+
+/* ==== WHO WE ARE ==== */
+.who-we-are {
+  padding: 100px var(--side-pad);
+  text-align: center;
+}
+
+.who-we-are h2 {
+  font-size: clamp(32px, 4vw, 40px);
+  margin-bottom: 24px;
+  letter-spacing: -0.03em;
+}
+
+.who-we-are p {
+  font-weight: 500;
+  font-size: clamp(20px, 3vw, 32px);
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: #717680;
+  margin: 0 auto;
+}
+
+.who-we-are p span {
+  color: #fdfdfd;
 }
