@@ -1,12 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge-1 Simple Landing Page with Html and CSS</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <!-- Code Here -->
-</body>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="/" class="logo">
+        <img src="./assets/logo.svg" alt="Logo" />
+      </a>
+
+      <nav id="navbar">
+        <ul class="link">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Service</a></li>
+          <li><a href="#ourwork" class="nav-link">Our Work</a></li>
+          <li><a href="#team" class="nav-link">Team</a></li>
+        </ul>
+        <button href="#contact" class="action_btn nav-action-btn">
+          Contact Us
+        </button>
+      </nav>
+
+      <button href="#contact" class="action_btn header-action-btn">
+        Contact Us
+      </button>
+
+      <div class="toggle_btn" id="toggle-btn">
+        <img src="./assets/menu-01.svg" alt="menu toggle" id="menu-icon" />
+      </div>
+    </header>
+  </body>
 </html>
